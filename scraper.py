@@ -49,20 +49,6 @@ def main():
     # The function below will print all info about all the sellers that appear on the home page. (Works on any Etsy URL)
     # get_listing_info("https://www.etsy.com/ca/")
 
-    """
-    TO PARSE MULTIPLE URLS:
-    urls = ["https://www.etsy.com/ca/",
-    https://www.etsy.com/ca/c/jewelry-and-accessories?ref=catnav-10855,
-    https://www.etsy.com/ca/c/home-and-living?ref=catnav-891]
-
-    It is advised to add a delay between each function call to avoid overloading the server with requests.
-    Such as:
-    For url in urls:
-        get_listing_info(url)
-        time.sleep(10)
-
-    """
-
 
 if __name__ == '__main__':
     main()
