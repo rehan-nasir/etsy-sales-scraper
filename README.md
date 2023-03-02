@@ -36,3 +36,4 @@ Seller: [seller name]
 [listing URL]
 ----------------------------
 ```
+If the code isn't returning the seller name or sales made, you may need to increase the delay.
